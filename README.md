@@ -38,10 +38,10 @@
 
 ```bash
 # 克隆到 user-level skill 目录（全局可用）
-git clone https://github.com/你的用户名/product-plan-guide.git ~/.workbuddy/skills/product-plan-guide
+git clone https://github.com/genapohub/product-plan-guide.git ~/.workbuddy/skills/product-plan-guide
 
 # 或放到项目本地（仅当前项目可用）
-git clone https://github.com/你的用户名/product-plan-guide.git .workbuddy/skills/product-plan-guide
+git clone https://github.com/genapohub/product-plan-guide.git .workbuddy/skills/product-plan-guide
 ```
 
 也可以在 WorkBuddy 桌面端 → **技能市场** → **从 Git 仓库导入** → 粘贴仓库地址。
@@ -50,10 +50,10 @@ git clone https://github.com/你的用户名/product-plan-guide.git .workbuddy/s
 
 ```bash
 # 克隆到 skills 目录
-git clone https://github.com/你的用户名/product-plan-guide.git ~/.codex/skills/product-plan-guide
+git clone https://github.com/genapohub/product-plan-guide.git ~/.codex/skills/product-plan-guide
 
 # 或使用通用路径
-git clone https://github.com/你的用户名/product-plan-guide.git ~/.agents/skills/product-plan-guide
+git clone https://github.com/genapohub/product-plan-guide.git ~/.agents/skills/product-plan-guide
 ```
 
 重启 Codex 后自动发现。也可以在对话中输入 `$product-plan-guide` 手动调用。
@@ -63,14 +63,14 @@ git clone https://github.com/你的用户名/product-plan-guide.git ~/.agents/sk
 **方式一：ZIP 导入（推荐）**
 ```bash
 # 先下载并打包
-git clone https://github.com/你的用户名/product-plan-guide.git
+git clone https://github.com/genapohub/product-plan-guide.git
 zip -r product-plan-guide.zip product-plan-guide/
 ```
 然后在 Trae → **设置** → **Rules & Skills** → **创建** → 上传 `product-plan-guide.zip`。
 
 **方式二：CLI 安装**
 ```bash
-npx openskills install https://github.com/你的用户名/product-plan-guide.git
+npx openskills install https://github.com/genapohub/product-plan-guide.git
 ```
 
 ### Cursor
@@ -94,10 +94,10 @@ cp product-plan-guide/SKILL.md .cursor/rules/product-plan-guide.mdc
 
 ```bash
 # 一键安装到当前项目
-npx openskills install https://github.com/你的用户名/product-plan-guide.git
+npx openskills install https://github.com/genapohub/product-plan-guide.git
 
 # 安装到全局
-npx openskills install https://github.com/你的用户名/product-plan-guide.git --global
+npx openskills install https://github.com/genapohub/product-plan-guide.git --global
 ```
 
 ---
@@ -145,13 +145,9 @@ product-plan-guide/
 
 ## 作者
 
-**张孟博（张工）** — 10 年产品经理（3 年 Python 后端 + 6 年产品），专注 AI 产品设计与 O2O 履约闭环。
-
-- 职业背景：宠物托运 O2O 平台「宠嗒嗒」产品负责人
-- 技能栈：AI 产品设计、Vibe Coding、CRM 获客系统、多端 SaaS 平台架构
-
+** zhangmengbo
 ---
 
 ## 许可
 
-[MIT](LICENSE) © 张孟博
+[MIT](LICENSE) © zhangmengbo
