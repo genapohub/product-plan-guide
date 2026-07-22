@@ -36,7 +36,7 @@
 
 ### WorkBuddy / CodeBuddy
 
-**方式一：克隆到skills目录
+**方式一：克隆到 skills 目录
 ```bash
 # 克隆到 workbuddy skill 目录（全局可用）
 git clone https://github.com/genapohub/product-plan-guide.git ~/.workbuddy/skills/product-plan-guide
@@ -65,7 +65,7 @@ git clone https://github.com/genapohub/product-plan-guide.git
 # 克隆到 skills 目录
 git clone https://github.com/genapohub/product-plan-guide.git ~/.codex/skills/product-plan-guide
 
-# 或使用cc switch
+# 或使用 cc switch
 git clone https://github.com/genapohub/product-plan-guide.git ~/.cc-switch/skills/product-plan-guide
 ```
 
