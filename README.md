@@ -40,9 +40,6 @@
 ```bash
 # 克隆到 user-level skill 目录（全局可用）
 git clone https://github.com/genapohub/product-plan-guide.git ~/.workbuddy/skills/product-plan-guide
-
-# 或放到项目本地（仅当前项目可用）
-git clone https://github.com/genapohub/product-plan-guide.git .workbuddy/skills/product-plan-guide
 ```
 
 **方式二：ZIP导入
