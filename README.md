@@ -65,11 +65,11 @@ git clone https://github.com/genapohub/product-plan-guide.git
 # 克隆到 skills 目录
 git clone https://github.com/genapohub/product-plan-guide.git ~/.codex/skills/product-plan-guide
 
-# 或使用通用路径
-git clone https://github.com/genapohub/product-plan-guide.git ~/.agents/skills/product-plan-guide
+# 或使用cc switch
+git clone https://github.com/genapohub/product-plan-guide.git ~/.cc-switch/skills/product-plan-guide;
 ```
 
-重启 Codex 后自动发现。也可以在对话中输入 `$product-plan-guide` 手动调用。
+重启 CC Switch客户端/Codex客户端 后自动发现。也可以在对话中输入 `$product-plan-guide` 手动调用。
 
 ### Cursor
 
