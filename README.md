@@ -38,7 +38,7 @@
 
 **方式一：克隆到skills目录
 ```bash
-# 克隆到 user-level skill 目录（全局可用）
+# 克隆到 workbuddy skill 目录（全局可用）
 git clone https://github.com/genapohub/product-plan-guide.git ~/.workbuddy/skills/product-plan-guide
 ```
 
