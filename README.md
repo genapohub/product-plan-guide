@@ -44,7 +44,7 @@ git clone https://github.com/genapohub/product-plan-guide.git ~/.workbuddy/skill
 git clone https://github.com/genapohub/product-plan-guide.git .workbuddy/skills/product-plan-guide
 ```
 
-也可以在 WorkBuddy 桌面端 → **技能市场** → **从 Git 仓库导入** → 粘贴仓库地址。
+也可以在 WorkBuddy 桌面端 → **技能市场** → **添加技能/上传技能** → **点击“跳过检测，直接安装**”。
 
 ### Trae
 
