@@ -44,7 +44,13 @@ git clone https://github.com/genapohub/product-plan-guide.git ~/.workbuddy/skill
 git clone https://github.com/genapohub/product-plan-guide.git .workbuddy/skills/product-plan-guide
 ```
 
-也可以在 WorkBuddy 桌面端 → **技能市场** → **添加技能/上传技能** → **点击“跳过检测，直接安装**”。
+也可以**ZIP 导入**
+```bash
+# 先下载并打包
+git clone https://github.com/genapohub/product-plan-guide.git
+zip -r product-plan-guide.zip product-plan-guide/
+```
+然后在 WorkBuddy 桌面端 → **技能市场** → **添加技能/上传技能** → **点击“跳过检测，直接安装**”。
 
 ### Trae
 
@@ -52,7 +58,6 @@ git clone https://github.com/genapohub/product-plan-guide.git .workbuddy/skills/
 ```bash
 # 先下载并打包
 git clone https://github.com/genapohub/product-plan-guide.git
-zip -r product-plan-guide.zip product-plan-guide/
 ```
 然后在 Trae → **设置** → **Rules & Skills** → **创建** → 上传 `product-plan-guide.zip`。
 
