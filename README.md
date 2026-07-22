@@ -46,6 +46,16 @@ git clone https://github.com/genapohub/product-plan-guide.git .workbuddy/skills/
 
 也可以在 WorkBuddy 桌面端 → **技能市场** → **从 Git 仓库导入** → 粘贴仓库地址。
 
+### Trae
+
+**ZIP 导入**
+```bash
+# 先下载并打包
+git clone https://github.com/genapohub/product-plan-guide.git
+zip -r product-plan-guide.zip product-plan-guide/
+```
+然后在 Trae → **设置** → **Rules & Skills** → **创建** → 上传 `product-plan-guide.zip`。
+
 ### Codex
 
 ```bash
@@ -57,16 +67,6 @@ git clone https://github.com/genapohub/product-plan-guide.git ~/.agents/skills/p
 ```
 
 重启 Codex 后自动发现。也可以在对话中输入 `$product-plan-guide` 手动调用。
-
-### Trae
-
-**ZIP 导入**
-```bash
-# 先下载并打包
-git clone https://github.com/genapohub/product-plan-guide.git
-zip -r product-plan-guide.zip product-plan-guide/
-```
-然后在 Trae → **设置** → **Rules & Skills** → **创建** → 上传 `product-plan-guide.zip`。
 
 ### Cursor
 
