@@ -68,11 +68,6 @@ zip -r product-plan-guide.zip product-plan-guide/
 ```
 然后在 Trae → **设置** → **Rules & Skills** → **创建** → 上传 `product-plan-guide.zip`。
 
-**方式二：CLI 安装**
-```bash
-npx openskills install https://github.com/genapohub/product-plan-guide.git
-```
-
 ### Cursor
 
 Cursor 使用 `.cursor/rules/*.mdc` 格式，不完全兼容原生的 SKILL.md。两种方式：
