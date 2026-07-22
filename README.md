@@ -66,7 +66,7 @@ git clone https://github.com/genapohub/product-plan-guide.git
 git clone https://github.com/genapohub/product-plan-guide.git ~/.codex/skills/product-plan-guide
 
 # 或使用cc switch
-git clone https://github.com/genapohub/product-plan-guide.git ~/.cc-switch/skills/product-plan-guide;
+git clone https://github.com/genapohub/product-plan-guide.git ~/.cc-switch/skills/product-plan-guide
 ```
 
 重启 CC Switch客户端/Codex客户端 后自动发现。也可以在对话中输入 `$product-plan-guide` 手动调用。
