@@ -72,31 +72,12 @@ git clone https://github.com/genapohub/product-plan-guide.git ~/.cc-switch/skill
 重启 CC Switch客户端/Codex客户端 后自动发现。也可以在对话中输入 `$product-plan-guide` 手动调用。
 
 ### Cursor
-
-Cursor 使用 `.cursor/rules/*.mdc` 格式，不完全兼容原生的 SKILL.md。两种方式：
-
-**方式一：作为 AGENTS.md 引用**
 ```bash
-# 将 SKILL.md 内容复制到项目根目录的 AGENTS.md（或追加到已有文件）
-cat product-plan-guide/SKILL.md >> .cursor/AGENTS.md
+# 克隆到 skills 目录
+git clone https://github.com/genapohub/product-plan-guide.git ~/.cursor/skills-cursor/product-plan-guide
 ```
 
-**方式二：转为 Cursor Rule**
-```bash
-# 复制并改扩展名
-cp product-plan-guide/SKILL.md .cursor/rules/product-plan-guide.mdc
-```
-然后在 `.mdc` 文件头部添加 Cursor 需要的 frontmatter（description、globs、alwaysApply）。
-
-### 通用（openskills CLI）
-
-```bash
-# 一键安装到当前项目
-npx openskills install https://github.com/genapohub/product-plan-guide.git
-
-# 安装到全局
-npx openskills install https://github.com/genapohub/product-plan-guide.git --global
-```
+重启 Cursor客户端 后自动发现。也可以在对话中输入 `$product-plan-guide` 手动调用。
 
 ---
 
