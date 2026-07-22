@@ -60,7 +60,7 @@ git clone https://github.com/genapohub/product-plan-guide.git ~/.agents/skills/p
 
 ### Trae
 
-**方式一：ZIP 导入（推荐）**
+**ZIP 导入**
 ```bash
 # 先下载并打包
 git clone https://github.com/genapohub/product-plan-guide.git
