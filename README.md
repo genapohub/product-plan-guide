@@ -65,7 +65,7 @@ git clone https://github.com/genapohub/product-plan-guide.git
 # 克隆到 skills 目录
 git clone https://github.com/genapohub/product-plan-guide.git ~/.codex/skills/product-plan-guide
 
-# 或使用 cc switch
+# 或使用 cc switch (推荐)
 git clone https://github.com/genapohub/product-plan-guide.git ~/.cc-switch/skills/product-plan-guide
 ```
 
