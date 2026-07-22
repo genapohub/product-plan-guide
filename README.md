@@ -36,6 +36,7 @@
 
 ### WorkBuddy / CodeBuddy
 
+**方式一：克隆到skills目录
 ```bash
 # 克隆到 user-level skill 目录（全局可用）
 git clone https://github.com/genapohub/product-plan-guide.git ~/.workbuddy/skills/product-plan-guide
@@ -44,7 +45,7 @@ git clone https://github.com/genapohub/product-plan-guide.git ~/.workbuddy/skill
 git clone https://github.com/genapohub/product-plan-guide.git .workbuddy/skills/product-plan-guide
 ```
 
-也可以**ZIP 导入**
+**方式二：ZIP导入
 ```bash
 # 先下载并打包
 git clone https://github.com/genapohub/product-plan-guide.git
