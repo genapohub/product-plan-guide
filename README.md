@@ -86,22 +86,6 @@ AI 客服模块的可行性分析
 
 Skill 会自动识别场景类型，先与你确认判断结果，再按清单产出完整文档。
 
----
-
-## 目录结构
-
-```
-product-plan-guide/
-├── SKILL.md                       # 主文件（工作流指令）
-├── README.md                      # 本文件
-├── LICENSE                        # MIT 协议
-├── .gitignore
-└── references/
-    └── 产品方案产出指南.md          # 详细方法论（约700行）
-```
-
----
-
 ## 贡献
 
 欢迎提 Issue 或 PR 来改进本 Skill：
