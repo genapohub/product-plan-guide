@@ -41,14 +41,6 @@
 git clone https://github.com/genapohub/product-plan-guide.git ~/.workbuddy/skills/product-plan-guide
 ```
 
-**方式二：ZIP导入
-```bash
-# 先下载并打包
-git clone https://github.com/genapohub/product-plan-guide.git
-zip -r product-plan-guide.zip product-plan-guide/
-```
-然后在 WorkBuddy 桌面端 → **技能市场** → **添加技能/上传技能** → **点击“跳过检测，直接安装**”。
-
 ### Trae
 
 **ZIP 导入**
