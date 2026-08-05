@@ -38,9 +38,7 @@
 
 **方式一：克隆到 skills 目录
 ```bash
-# 克隆到 workbuddy skill 目录（全局可用）
-git clone https://github.com/genapohub/product-plan-guide.git
-zip -r product-plan-guide.zip product-plan-guide/ ~/.workbuddy/skills/product-plan-guide
+git clone https://github.com/genapohub/product-plan-guide.git ~/.workbuddy/skills/product-plan-guide
 ```
 
 **方式二：ZIP导入
@@ -65,12 +63,10 @@ zip -r product-plan-guide.zip product-plan-guide/
 
 ```bash
 # 克隆到 skills 目录
-git clone https://github.com/genapohub/product-plan-guide.git
-zip -r product-plan-guide.zip product-plan-guide/ ~/.codex/skills/product-plan-guide
+git clone https://github.com/genapohub/product-plan-guide.git ~/.codex/skills/product-plan-guide
 
 # 或使用 cc switch (推荐)
-git clone https://github.com/genapohub/product-plan-guide.git
-zip -r product-plan-guide.zip product-plan-guide/ ~/.cc-switch/skills/product-plan-guide
+git clone https://github.com/genapohub/product-plan-guide.git ~/.cc-switch/skills/product-plan-guide
 ```
 
 重启 CC Switch客户端/Codex客户端 后自动发现。也可以在对话中输入 `$product-plan-guide` 手动调用。
@@ -78,8 +74,7 @@ zip -r product-plan-guide.zip product-plan-guide/ ~/.cc-switch/skills/product-pl
 ### Cursor
 ```bash
 # 克隆到 skills 目录
-git clone https://github.com/genapohub/product-plan-guide.git
-zip -r product-plan-guide.zip product-plan-guide/ ~/.cursor/skills-cursor/product-plan-guide
+git clone https://github.com/genapohub/product-plan-guide.git ~/.cursor/skills-cursor/product-plan-guide
 ```
 
 重启 Cursor客户端 后自动发现。也可以在对话中输入 `$product-plan-guide` 手动调用。
