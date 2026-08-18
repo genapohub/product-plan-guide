@@ -73,6 +73,14 @@ git clone https://github.com/genapohub/product-plan-guide.git ~/.cursor/skills-c
 
 ---
 
+
+## 特性
+
+- 5 类场景自动路由识别，产出清单按场景裁剪
+- **内置可填空模板**：方法论内置「PRD / BRD / MRD / 数据埋点 / 上线方案」，产出时按占位符直接填充，文档规范度对齐业界标准
+
+---
+
 ## 使用
 
 安装后不需要额外配置。在 AI 对话中用以下任意方式触发：
