@@ -1,7 +1,7 @@
 # Product Plan Guide — 产品经理产品方案产出指南
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](SKILL.md)
+[![Version](https://img.shields.io/badge/version-1.2.0-green.svg)](SKILL.md)
 
 一个面向 AI 编程助手的 **产品经理 Skill**，将结构化的产品方法论转化为可执行的工作流。当你在 AI 对话中提出产品需求时，它会自动识别需求所属的 5 类场景（0→1 新项目 / 中大型迭代 / 小优化 / 大版本升级 / 预研），按对应清单产出 PRD、BRD、MRD、埋点方案、上线方案等完整文档。
 
@@ -81,7 +81,8 @@ git clone https://github.com/genapohub/product-plan-guide.git ~/.cursor/skills-c
 - 5 类场景自动路由识别，产出清单按场景裁剪
 - **内置可填空模板**：方法论内置「PRD / BRD / MRD / 数据埋点 / 上线方案」，产出时按占位符直接填充，文档规范度对齐业界标准
 - **设计友好型 PRD 五维交付**（§5.4~5.7）：页面层级图+编号 → 代表作1页完整五维（信息结构表/树形设计指导/交互状态表/异常场景/视觉约束）→ 简化表全页覆盖 → 视觉总纲 → 异常速查 → 强制核对
-- **HTML 线框呈现 + iframe 切片**（§5.6.5，可选增强）：树形像素级描述 → HTML 线框渲染，浏览器直接打开预览，无需 Figma/Ardot；多页时 iframe 切片 + focus 专注模式逐页聚焦评审
+- **HTML 线框呈现 + iframe 切片**（§5.6.5，可选增强）：树形像素级描述 → HTML 线框渲染，浏览器直接打开预览，无需 Figma/Ardot；多页时 iframe 切片 + focus 专注模式逐页聚焦评审（单文件自包含 + Web 切片 min-width≥820px 两条硬规则）
+- **开发可执行四件套**：§5.2 验收标准 AC（Given/When/Then ≥2条/功能点）→ §6.4 状态机（状态清单+合法流转+触发条件+终态）→ §7.1 字段类型具体化（varchar/int/decimal/enum）→ §8.5 权限矩阵（角色×增删改查），研发不追问即可开工
 
 ---
 
